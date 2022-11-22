@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--contains meta info-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Filipino American Association of Pittsburgh</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="bootstrap.bundle.min.js / bootstrap.bundle.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        
+    </head>
+
+    <body>
+        <!--page content begins-->
+        <!--build page header-->
+        <header>
+            <!--contains FAAP logo and name-->
+            <div class="container">
+                <div class="row pt-2 pb-2">
+                    <div class="col-sm-3 text-center">
+                        <img src="images/faapLogo.png" alt="faap logo" id="faapLogo" class="justify-content-center">
+                    </div>
+                    <div class="col-sm-6 my-auto text-center">
+                        <h3 id="faapHeading" class="text-light">The Filipino American Association of Pittsburgh</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!--build nav bar-->
+            <nav class="navbar navbar-expand-sm p-2" id="nav1">
+                <a class="nav-link mr-2" href="home.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mr-auto">
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark font-weight-bold" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="#">Charity</a>
+                                <a class="dropdown-item font-weight-bold" href="#">Culture</a>
+                                <a class="dropdown-item" href="#">Education</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Events
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="#">Past Events</a>
+                                <a class="dropdown-item" href="#">Upcoming Events</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Become a Member</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Support Us</a>
+                        </li>
+                    
+                    </ul>
+                    <form class="form-inline d-sm-flex justify-content-sm-end">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" id="search" type="submit"><img src="images/search.png" id="searchButton"></button>
+                        
+                    </form>
+                </div>
+            </nav>
+
+            <!--second nav bar to display on mobile screens (there is no way for the active link that is not the first link to be displayed on phone screens as the main link)
+            This nav bar displays the page we are on without changing the order of the nav bar-->
+            <nav class="navbar navbar-expand-sm p-2" id="nav2">
+                <a class="nav-link mr-2 font-weight-bold" href="#">Culture</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarContent2">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="home.html">Home</a>
+                        </li>
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark font-weight-bold" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="#">Charity</a>
+                                <a class="dropdown-item font-weight-bold" href="#">Culture</a>
+                                <a class="dropdown-item" href="#">Education</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Events
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="#">Past Events</a>
+                                <a class="dropdown-item" href="#">Upcoming Events</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Become a Member</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Support Us</a>
+                        </li>
+                    
+                    </ul>
+                    <form class="form-inline d-sm-flex justify-content-sm-end">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" id="search" type="submit"><img src="images/search.png" id="searchButton"></button>
+                        
+                    </form>
+                </div>
+            </nav>
+            
+        </header>
+
+        <!--build article-->
+        <div class="container">
+            <div class="row mt-4 mb-2 pt-2 pb-2">
+                <h4 class="text-center">Culture</h4>
+            </div>
+            
+            <div class="row mb-4 pb-2">
+                <h5 class="text-black text-center">Our Dance Troupe</h5>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap5.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap6.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap7.jpg" class="justify-content-center mw-100">
+                </div>
+            </div>
+
+            <div class="row mb-4 pb-2">
+                <h5 class="text-black text-center">Our Festivals</h5>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap8.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap9.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap10.jpg" class="justify-content-center mw-100">
+                </div>
+            </div>
+
+            <div class="row mb-4 pb-2">
+                <h5 class="text-black text-center">Our Other Performances</h5>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap11.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap12.jpg" class="justify-content-center mw-100">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2">
+                    <img src="images/faap13.jpg" class="justify-content-center mw-100">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h5 class="text-center">Contact Us</h5>
+                        <ul>
+                            <li>
+                                <a class="text-white" href = "mailto: membership@faap.org">membership@faap.org</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href = "mailto: treasurer@faap.org">treasurer@faap.org</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href = "mailto: helpdesk@faap.org">helpdesk@faap.org</a>
+                            </li>
+                        </ul>
+                        
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="text-center">Our Other Sites</h5>
+                        <ul>
+                            <li>
+                                <a class="text-white" href = "#">Main FAAP Facebook Site</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href = "#">Dance Troupe Facebook Site</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href = "#">YFAP Facebook Site</a>
+                            </li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="text-center">Get Involved</h5>
+                        <ul>
+                            <li>
+                                <a class="text-white" href = "#">Become a Member</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href = "#">Support Us</a>
+                            </li>
+
+                        </ul>
+
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        
+        <!--link to html scripts at the bottom-->
+        
+        <script src="bootstrap.bundle.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

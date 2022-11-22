@@ -1,0 +1,99 @@
+/*header formatting */
+header, .footer {
+    background-color:#045387;
+}
+
+#faapLogo {
+    max-width:40%;
+}
+
+#searchButton {
+    min-width:15px;
+    max-width:15px;
+
+}
+
+#search {max-width:10%;
+    min-width:10%;
+}
+
+.navbar, .dropdown-menu {background-color: #99C7E0;}
+
+/*footer formatting*/
+h5 {
+    color:#F8E388;}
+/*removing default black bullet and adding white bullet */
+.footer ul {list-style:none;}
+.footer li::before {
+    content:"•";
+    color: white;
+    display:inline-block;
+    width:1em;
+    margin-left: -1em;
+}
+
+#donateBtn {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:100%;
+    min-height:50%;
+    padding:2%;
+    background-color:#F8E388;
+    border:1px solid grey;
+}
+
+#learnMore {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    padding:2%;
+    background-color:#F8E388;
+    border:1px solid grey;
+}
+
+.wrapSupport {border:1px solid black;
+    background-color:white;
+    border-radius:10px;
+}
+
+.mobileShow {display:none;}
+
+img {max-width:100%;}
+
+h4 {color:#045387;}
+
+#nav2 {display:none;}
+
+@media screen and (max-width: 768px) {
+    /*header formatting*/
+    #faapLogo {max-width: 80%;}
+    #faapHeading {font-size:1.3em;}
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    /*header formatting*/
+    #faapHeading {
+        display:none;
+    }
+    #faapLogo {
+        max-width:20%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .form {max-width:50%;}
+
+    .mobileHide {display:none;}
+
+    .mobileShow {display:block;}
+
+    #nav1 {display:none;}
+
+    #nav2 {display:flex;}
+
+}
