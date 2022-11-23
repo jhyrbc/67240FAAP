@@ -13,6 +13,11 @@ header, .footer {
     margin-right: auto;
 }
 
+/* styling to make subheadings diff color */
+.colored_subheadings {
+    color:#045387;
+}
+
 #faapLogo {
     max-width:40%;
     padding-top:3%;
@@ -61,6 +66,20 @@ h5 {
     padding:2%;
     background-color:#F8E388;
     border:1px solid grey;
+}
+
+/* styling bootstrap table colors */
+.table {
+    --bs-table-color: #000000;
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: #99C7E0;
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
 }
 
 #learnMore {
