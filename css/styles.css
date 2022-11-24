@@ -40,8 +40,46 @@ header, .footer {
 }
 
 /* about us page setting */
-.aboutus-container {
-    margin:50px;
+.aboutus-container-l {
+    margin-right:10px;
+    padding:10px;
+}
+
+.aboutus-container-r {
+    padding:10px;
+}
+
+.core-value {
+    background-color:#99C7E0 !important;
+    margin-bottom:20px;
+    margin-right:10px;
+    font-size:20px !important;
+    font-weight:bold !important;
+}
+
+#core-value {
+    max-width: 80%;
+    display:block;
+    margin:auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
+.board-of-directors {
+    color:#045387;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.headshots {
+    margin:10px;
+}
+
+.contact {
+    padding:30px;
 }
 
 /*footer formatting*/
@@ -123,6 +161,21 @@ h4 {
     #faapHeading {
         font-size:1.3em;
     }
+    /* smaller font for core value buttons on mobile */
+    .core-value {
+        font-size:12px !important;
+    }
+
+    /* remove about us container margin in smaller screen, add bottom margin instead */
+    .aboutus-container-l {
+        margin-right:0px;
+        margin-bottom:10px;
+    }
+
+    /* adding bottom margin for contact card in smaller screens */
+    .contact {
+        margin-bottom:10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -149,6 +202,22 @@ h4 {
 
     .mobileShow {
         display:block;
+    }
+
+    /* smaller font for core value buttons on mobile */
+    .core-value {
+        font-size:12px !important;
+    }
+
+    /* remove about us container margin in smaller screen, add bottom margin instead */
+    .aboutus-container-l {
+        margin-right:0px;
+        margin-bottom:10px;
+    }
+
+    /* adding bottom margin for contact card in smaller screens */
+    .contact {
+        margin-bottom:10px;
     }
 
     /* in mobile the original nav bar will no longer be displayed */

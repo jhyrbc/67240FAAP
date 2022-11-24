@@ -7,7 +7,8 @@
         <title>Filipino American Association of Pittsburgh</title>
         <link href="css/styles.css" type="text/css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="bootstrap.bundle.min.js / bootstrap.bundle.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <!-- <script src="bootstrap.bundle.min.js / bootstrap.bundle.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,51 +111,158 @@
             </div>
 
             <div class="container">
-                <div class="row">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
                     <!-- our mission -->
-                    <div class="col-5 wrapSupport mt-2 mb-2 pt-2 pb-2 aboutus-container">
+                    <div class="col">
 
-                        <h4 class="text-center pb-2 mt-2">Our Mission</h4>
+                        <div class="aboutus-container-l wrapSupport">
+                            <h4 class="text-center pb-2 mt-2">Our Mission</h4><br>
 
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="images/mission.jpg">
-                            </div>
-                            <div class="col-6">
-                                <p>
-                                    Our mission is to preserve, promote and perpetuate the Filipino heritage among our members and the general public through cultural, charitable and educational activities.
-                                </p>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/mission.jpg">
+                                    <br><br>
+                                </div>
+                                <div class="col">
+                                    <p>
+                                        Our mission is to preserve, promote and perpetuate the Filipino heritage among our members and the general public through cultural, charitable and educational activities.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                             
-                    </div>
+                    </div><br>
 
                     <!-- our vision -->
-                    <div class="col-5 wrapSupport mt-2 mb-2 pt-2 pb-2 aboutus-container">
+                    <div class="col">
 
-                        <h4 class="text-center pb-2 mt-2">Our Vision</h4>
+                        <div class="aboutus-container-r wrapSupport">
+                            <h4 class="text-center pb-2 mt-2">Our Vision</h4><br>
 
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="images/vision.jpg">
-                            </div>
-                            <div class="col-6">
-                                <p>
-                                    We envision a dynamic and vibrant Filipino American community that is recognized and valued as an integral part of America’s ethnic diversity.
-                                </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/vision.jpg">
+                                    <br><br>
+                                </div>
+                                <div class="col-6">
+                                    <p>
+                                        We envision a dynamic and vibrant Filipino American community that is recognized and valued as an integral part of America’s ethnic diversity.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                             
-                    </div>
-                </div>
+                    </div><br>
+                </div><br>
 
+                <!-- core values -->
                 <div class="row">
-                    <div class="col-11 wrapSupport mt-2 mb-2 pt-2 pb-2 aboutus-container">
-                        <h4 class="text-center pb-2 mt-2">Our Core Values</h4>
+                    <div class="col mt-2 mb-2 pt-2 pb-2">
+                        <div class="aboutus-container-r wrapSupport">
+                            <h4 class="text-center pb-2 mt-2">Our Core Values</h4><br>
+                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                                <div class="col">
+                                    <img id="core-value" src="images/core_values.jpg"><br>
+                                </div>
 
-
+                                <!-- core value popovers -->
+                                <div class="col">
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We are committed to cooperation and camaraderie, unselfishly caring for others and working for the common good. It is an espirit d’corps that elevates volunteering of one’s self, time and resources to the highest and most admirable levels.">
+                                        Bayanihan Spirit
+                                    </button>
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We show respect for everyone, always courteous in word and demeanor, open to ideas and opposing points of view. We are caring of our elders who have nurtured us with their wisdom and experience. We value our children who look to us as true and unflinching role models.">
+                                        Respect
+                                    </button>
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We believe in the equality of all people, treating them with fairness and tolerance, accepting of their faith, politics, economic status, profession, education and ethnicity.">
+                                        Non-discriminatory
+                                    </button>
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We are upright and dignified, expecting the same of others at home, in the workplace and the world at large. We subscribe to principles of ethics, dependability and justice, ever mindful that how we conduct ourselves reflects on our moral compass.">
+                                        Integrity
+                                    </button>
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We are welcoming to all who come in friendship to our door, sharing willingly of our repast and possessions. Our patience, musicality and unfailing sense of humor serve us well in all manner of social relationships.">
+                                        Hospitality
+                                    </button>
+                                    <button type="button" class="btn text-white core-value" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We make decisions based on honest and open discussions and conduct our activities in a decent and forthright manner, allowing members access to FAAP records, answerable to our consciences for our actions and fully responsible for their consequences.">
+                                    Transparency and Accountability
+                                    </button>
+                                </div>
+                            </div><br>
+                        </div> 
                     </div>
-                </div>
+                </div><br><br>
+
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <!-- history -->
+                    <div class="col">
+                        <h4 class="text-center pb-2 mt-2">History</h4><br>
+                        <video max-width="100%" controls>
+                            <source src="images/history.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <button class="btn" type="button" id="learnMore" href="#">Learn More</button>
+                        <br><br>
+                    </div>
+
+                    <!-- board of directors -->
+                    <div class="col">
+                        <h4 class="text-center pb-2 mt-2">Board of Directors</h4>
+                        <h6 class="text-center pb-2 mt-2">2022</h6>
+                        <!-- headshots & names -->
+                        <div class="row">
+                            <div class="headshots col">
+                                <img src="images/directors/Jaime Abola.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Jaime Abola</p>
+                            </div>
+                            <div class="headshots col">
+                                <img src="images/directors/Melinda Angeles.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Melinda Angeles</p>
+                            </div>
+                            <div class="headshots col">
+                                <img src="images/directors/Jun Calejesan.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Jun Calejesan</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="headshots col">
+                                <img src="images/directors/Junriz Delos Santos.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Junriz Delos Santos</p>
+                            </div>
+                            <div class="headshots col">
+                                <img src="images/directors/Irna de Leon-Knapp.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Irna de Leon-Knapp</p>
+                            </div>
+                            <div class="headshots col">
+                                <img src="images/directors/Lani Mears.jpg" class="rounded-circle">
+                                <p class="board-of-directors text-center">Lani Mears</p>
+                            </div>
+                        </div>
+                        <button class="btn" type="button" id="learnMore" href="#">Learn More</button>
+                        <br><br>
+                    </div>
+                </div><br>
+
+                <!-- contact us -->
+                <h4 class="text-center pb-2 mt-2">Contact Us</h4><br>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+                    <div class="col">
+                        <div class="contact card">
+                            <h5 class="text-dark">Membership:</h5>
+                            <a href="mailto:membership@thefaap.org">membership@thefaap.org</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact card">
+                            <h5 class="text-dark">Donation:</h5>
+                            <a href="mailto:treasurer@thefaap.org">treasurer@thefaap.org</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact card">
+                            <h5 class="text-dark">More Information:</h5>
+                            <a href="mailto:helpdesk@thefaap.org">helpdesk@thefaap.org</a>
+                        </div>
+                    </div>
+                </div><br><br>
                 
             </div>
             
