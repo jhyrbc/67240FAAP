@@ -41,6 +41,7 @@ header, .footer {
     min-width:10%;
 }
 
+/* nav bar's background color */
 .navbar, .dropdown-menu {
     background-color: #99C7E0;
 }
@@ -72,7 +73,7 @@ header, .footer {
 video {
     max-width: 100%;
     height: auto;
-  }
+}
 
 .board-of-directors {
     color:#045387;
