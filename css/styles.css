@@ -153,6 +153,8 @@ h4 {
 }
 
 
+
+
 @media screen and (max-width: 768px) {
     /*header formatting*/
     #faapLogo {
@@ -230,4 +232,5 @@ h4 {
         display:flex;
     }
 
+    
 }
