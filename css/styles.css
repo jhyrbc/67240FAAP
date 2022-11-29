@@ -230,4 +230,8 @@ h4 {
         display:flex;
     }
 
+    #nav2 input {
+        max-width:90%;
+    }
+
 }
